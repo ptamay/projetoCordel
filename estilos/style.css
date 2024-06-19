@@ -8,12 +8,13 @@
 }
 
 body {
-    background-color: aquamarine;
+    background-color: rgb(40, 71, 138);
 }
 
 h1 {
     font-variant: small-caps;
 }
+
 
 a {
     color: white;
@@ -33,21 +34,52 @@ header {
     text-align: center;
 }
 
+section {
+    padding: 50px 20px;
+    line-height: 2.5em;
+    height: 1000px;
+}
+
 section.normal {
     background-color: white;
     color: black;
+    
 }
 
 section.background {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.555);
     color: white;
+}
+
+section.normal > p {
+    padding: 10px;
     
 }
 
-section.normal, section.backgrund > p {
-   
+section.background > p {
+    background-color: rgba(0, 0, 0, 0.425);
+    width: 400px;
+    padding: 10px;
+}
+
+section.background#wallpaper1 {
+    background-image: url(../imagens/background001.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
     
 }
+
+section.background#wallpaper2 {
+    background-image: url(../imagens/background002.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    
+}
+
 
 footer {
     background-color: black;
