@@ -125,5 +125,9 @@ footer {
     padding: 10px;
     text-align: center;
     color: white;
+   
     
+}
+footer > p {
+    font-size: 20px;
 }
