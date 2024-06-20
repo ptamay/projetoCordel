@@ -105,7 +105,7 @@ section.background#wallpaper1 {
     background-image: url(../imagens/background001.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: right center;
+    background-position: center center;
     background-attachment: fixed;
     
 }
